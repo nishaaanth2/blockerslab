@@ -1,0 +1,26 @@
+import Nav from "./components/Nav"
+function App ()
+{
+  return (
+    <section className="bg-hero-bg md:h-screen bg-cover bg-center font-Barlow pb-2">
+      <Nav />
+      <div className="md:container px-2  pt-5 md:text-left text-center">
+        <h1 className="text-2xl  text-white">
+          <span className="text-[#ffffff70] font-bold mr-2">01</span> TRANSFORMING INDUSTRIES WITH BLOCKCHAIN</h1>
+        <div className="md:flex items-center md:justify-between  pt-6 ">
+          <img src="./src/assets/image-moon.png" className="md:w-[36%] w-[52%]  md:mx-0 mx-auto md:py-0 py-4" />
+          <div className="md:w-1/2 ">
+            <ul className="text-white pb-4">
+              <li className="inline-block cursor-pointer md:mr-8 md:mx-0 mx-4 md:ml-2 border-b-2">VISION</li>
+            </ul>
+            <h1 className="text-white w-full font-Bellefair pb-2 text-7xl">BlockersLab</h1>
+            <p className="text-[#d2d8f9] font-extralight text-sm md:w-2/3 md:pl-1 leading-6 tracking-wide pb-10 border-b-[0.5px] border-[#ffffff66]">
+            At BlockersLab, our vision is to be the leading provider of blockchain-based solutions for businesses and organizations around the world. We believe that the decentralized and secure nature of blockchain technology has the power to revolutionize the way that companies operate, and we are dedicated to helping our clients harness that power to improve efficiency, transparency, and trust. Through our innovative applications and unparalleled expertise in blockchain development, we aim to empower our clients to achieve their goals and succeed in a rapidly-evolving digital landscape.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
+export default App
