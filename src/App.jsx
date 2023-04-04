@@ -8,7 +8,7 @@ function App ()
         <h1 className="text-2xl  text-white">
           <span className="text-[#ffffff70] font-bold mr-2">01</span> TRANSFORMING INDUSTRIES WITH BLOCKCHAIN</h1>
         <div className="md:flex items-center md:justify-between  pt-6 ">
-          <img src="./src/assets/image-moon.png" className="md:w-[36%] w-[52%]  md:mx-0 mx-auto md:py-0 py-4" />
+          <img src="https://raw.githubusercontent.com/nishaaanth2/blockerslab/main/src/assets/image-moon.png" className="md:w-[36%] w-[52%]  md:mx-0 mx-auto md:py-0 py-4" />
           <div className="md:w-1/2 ">
             <ul className="text-white pb-4">
               <li className="inline-block cursor-pointer md:mr-8 md:mx-0 mx-4 md:ml-2 border-b-2">VISION</li>
